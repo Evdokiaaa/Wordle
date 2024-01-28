@@ -1,7 +1,7 @@
 import Guess from "./Guess";
 import range from "../utils/range";
 import styled from "styled-components";
-import checkGuess from "../utils/checkGuess";
+
 const GameBoard = styled.div`
   margin: 100px auto;
 `;

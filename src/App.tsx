@@ -1,11 +1,8 @@
 import styled from "styled-components";
-import "./App.css";
-import { Container } from "./components/Container";
-import Header from "./components/Header";
 
-import Board from "./components/Board";
-import UserInput from "./components/UserInput";
+import Header from "./components/Header";
 import Game from "./components/Game";
+import "./App.css";
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
@@ -13,10 +10,8 @@ const Wrapper = styled.div`
 const App = () => {
   return (
     <Wrapper>
-      <Header></Header>
+      <Header />
       <Game />
-      {/* <Board />
-      <UserInput /> */}
     </Wrapper>
   );
 };
